@@ -1,0 +1,1 @@
+import{r as o,D as r}from"./main-7817f3b1.js";function i(){var e=o.useContext(r);return e}function s(e){e===void 0&&(e=r);var t=e===r?i:function(){return o.useContext(e)};return function(){var u=t(),n=u.store;return n}}var c=s();function f(e){e===void 0&&(e=r);var t=e===r?c:s(e);return function(){var u=t();return u.dispatch}}var d=f();export{i as a,d as u};
